@@ -1,4 +1,10 @@
-*{margin:0;padding:0;box-sizing:border-box}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased; 
+}
 :root{
   --red:#ff5a3c;
   --dark:#181d27;
@@ -21,7 +27,11 @@ ul{list-style:none}
 .between{justify-content:space-between}
 .center{text-align:center}
 .grid{display:grid}
-.grid-2{grid-template-columns:1fr 1fr}
+.grid-2{
+    grid-template-columns:1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
 .grid-3{grid-template-columns:repeat(3,1fr)}
 .mt{margin-top:30px}
 .section{padding:70px 0}
